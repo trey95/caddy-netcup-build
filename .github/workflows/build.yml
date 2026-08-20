@@ -3,8 +3,6 @@ name: Build Caddy Image
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: '0 3 * * 1'
   workflow_dispatch:
 
 jobs:
